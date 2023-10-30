@@ -1,0 +1,18 @@
+[
+    {
+        "domein_naam": "google.com",
+        "online": false
+    },
+    {
+        "domein_naam": "test",
+        "online": false
+    },
+    {
+        "domein_naam": "facebook.com",
+        "online": false
+    },
+    {
+        "domein_naam": "nu.nl",
+        "online": false
+    }
+]
