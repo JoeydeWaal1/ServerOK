@@ -1,11 +1,11 @@
-#Server OK
+# Server OK
 ### Python Advanced
 ###### Joey de Waal 
 ###### S143533
 
 ### Gebruikswijze
 ```
-$ python3 main.py
+$ python3 main.py <opties>
 ```
 
 ### Opties

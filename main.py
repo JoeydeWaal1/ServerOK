@@ -1,7 +1,7 @@
 from args import get_args
 from management import management_loop
 from check import check_loop
-from domein import Domein, read_domeinen
+from domein import read_domeinen
 
 
 def main():

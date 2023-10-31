@@ -1,6 +1,7 @@
-from domein import Domein, print_domeinen
+from domein import Domein
 from ping3 import ping
 import datetime
+
 
 def generate_row(domein: Domein) -> str:
     return f"""
@@ -9,6 +10,7 @@ def generate_row(domein: Domein) -> str:
                 <td class="px-5 py-1">{str(domein.online)}</td>
             </tr>
             """
+
 
 def generage_html(domeinen: [Domein]):
     f = open("template.html", "r")
@@ -26,6 +28,7 @@ def generage_html(domeinen: [Domein]):
     f = open("output.html", "w")
     f.write(html)
     f.close()
+
 
 def check_loop(domeinen: [Domein]):
     for domein in domeinen:
